@@ -9,12 +9,17 @@ Gem::Specification.new do |s|
   s.version     = RailsDoc::VERSION
   s.authors     = ["qinmingyuan"]
   s.email       = ["mingyuan0715@foxmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsDoc."
-  s.description = "TODO: Description of RailsDoc."
+  s.homepage    = 'https://github.com/yougexiangfa/rails_doc'
+  s.summary     = " Summary of RailsDoc."
+  s.description = " Description of RailsDoc."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir[
+    "{app,config,db,lib}/**/*",
+    "MIT-LICENSE",
+    "Rakefile",
+    "README.md"
+  ]
 
   s.add_dependency "rails", "~> 5.2.1"
 
