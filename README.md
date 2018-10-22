@@ -1,8 +1,15 @@
 # RailsDoc
 Short description and motivation.
 
-## Usage
-How to use my plugin.
+## 功能
+* 记录api版本变化;
+* 开发环境采用手动记录接口;
+* 产品环境自动请求实际接口;
+* 导出json格式;
+
+## 第三方支持
+* 支持rails程序,gem 'rails_doc'
+* 提供对导出的json数据导入的工具;
 
 ## Installation
 Add this line to your application's Gemfile:
