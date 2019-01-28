@@ -11,6 +11,13 @@ Short description and motivation.
 * 支持rails程序,gem 'rails_doc'
 * 提供对导出的json数据导入的工具;
 
+## UI
+`rails_doc`提供标准open api v3 接口，兼容此标准的api UI有：
+
+* [Swagger UI](https://github.com/swagger-api/swagger-ui)
+* [OpenAPI-GUI](https://github.com/Mermade/openapi-gui)
+* [ReDoc](https://github.com/Rebilly/ReDoc)
+
 ## Installation
 Add this line to your application's Gemfile:
 
