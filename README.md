@@ -1,5 +1,5 @@
 # RailsDoc
-Short description and motivation.
+`rails_doc`是一个 从Rails应用 输出 [OpenAPI](https://github.com/OAI/OpenAPI-Specification) 格式文档的工具；
 
 ## 功能
 * 记录api版本变化;
@@ -18,25 +18,3 @@ Short description and motivation.
 * [OpenAPI-GUI](https://github.com/Mermade/openapi-gui)
 * [ReDoc](https://github.com/Rebilly/ReDoc)
 
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'rails_doc'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install rails_doc
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
