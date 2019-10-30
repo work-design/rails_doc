@@ -1,18 +1,15 @@
 $:.push File.expand_path('lib', __dir__)
-
-# Maintain your gem's version:
 require 'rails_doc/version'
 
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'rails_doc'
-  s.version     = RailsDoc::VERSION
-  s.authors     = ['qinmingyuan']
-  s.email       = ['mingyuan0715@foxmail.com']
-  s.homepage    = 'https://github.com/work-design/rails_doc'
-  s.summary     = ' Summary of RailsDoc.'
+  s.name = 'rails_doc'
+  s.version = RailsDoc::VERSION
+  s.authors = ['qinmingyuan']
+  s.email = ['mingyuan0715@foxmail.com']
+  s.homepage = 'https://github.com/work-design/rails_doc'
+  s.summary = 'Generate Api doc from nornal rails project with very little works'
   s.description = ' Description of RailsDoc.'
-  s.license     = 'LGPL-3.0'
+  s.license = 'MIT'
 
   s.files = Dir[
     '{app,config,db,lib}/**/*',
