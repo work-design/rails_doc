@@ -3,9 +3,20 @@ module Doc
     extend ActiveSupport::Concern
 
     included do
-
+      attribute :name, :string
+      attribute :request_method, :string
+      attribute :request_path, :string
+      attribute :path_params, :json
+      attribute :request_params, :json
+      attribute :request_headers, :json
+      attribute :request_type, :string
+      attribute :request_body, :json
+      attribute :response_status, :string
+      attribute :response_headers, :json
+      attribute :response_type, :string
+      attribute :response_body, :string
+      attribute :note, :string
     end
-
 
   end
 end

@@ -3,7 +3,8 @@ module Doc
     extend ActiveSupport::Concern
 
     included do
-
+      attribute :name, :string
+      attribute :mappings, :hstore
     end
 
   end
