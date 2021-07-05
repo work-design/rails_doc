@@ -16,9 +16,5 @@ module RailsDoc
       g.templates.unshift File.expand_path('lib/templates', RailsCom::Engine.root)
     end
 
-    initializer 'rails_doc.assets.precompile' do |app|
-      app.config.assets.precompile += ['rails_doc_manifest.js']
-    end
-
   end
 end

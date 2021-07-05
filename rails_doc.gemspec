@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email = ['mingyuan0715@foxmail.com']
   s.homepage = 'https://github.com/work-design/rails_doc'
   s.summary = 'Generate Api doc from nornal rails project with very little works'
-  s.description = ' Description of RailsDoc.'
+  s.description = 'Description of RailsDoc.'
   s.license = 'MIT'
 
   s.files = Dir[
