@@ -4,7 +4,7 @@ module Doc
 
     included do
       attribute :name, :string
-      attribute :mappings, :hstore
+      attribute :mappings, :json
     end
 
   end
