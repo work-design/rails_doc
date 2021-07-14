@@ -4,8 +4,6 @@ module Doc
 
     included do
       attribute :name, :string
-      attribute :request_method, :string
-      attribute :request_path, :string
       attribute :path_params, :json
       attribute :request_params, :json
       attribute :request_headers, :json
