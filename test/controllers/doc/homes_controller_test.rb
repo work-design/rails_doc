@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class Doc::HomesControllerTest < ActionDispatch::IntegrationTest
+
   setup do
     @doc_home = doc_homes(:one)
   end
