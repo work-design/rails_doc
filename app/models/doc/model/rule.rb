@@ -9,6 +9,8 @@ module Doc
       attribute :required_parts, :string
       attribute :controller_path, :string
       attribute :action_name, :string
+
+      has_many :subjects, dependent: :delete_all
     end
 
   end

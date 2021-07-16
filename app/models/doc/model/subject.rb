@@ -14,6 +14,8 @@ module Doc
       attribute :response_type, :string
       attribute :response_body, :string
       attribute :note, :string
+
+      belongs_to :rule
     end
 
   end
