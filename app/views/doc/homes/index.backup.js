@@ -1,5 +1,5 @@
-import SwaggerUI from 'swagger-ui'
-
-SwaggerUI({
-  dom_id: '#rails_doc'
-})
+// import SwaggerUI from 'swagger-ui'
+//
+// SwaggerUI({
+//   dom_id: '#rails_doc'
+// })
