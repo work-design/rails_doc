@@ -1,4 +1,9 @@
 # RailsDoc
+
+[![测试](https://github.com/work-design/rails_doc/actions/workflows/test.yml/badge.svg)](https://github.com/work-design/rails_doc/actions/workflows/test.yml)
+[![Docker构建](https://github.com/work-design/rails_doc/actions/workflows/cd.yml/badge.svg)](https://github.com/work-design/rails_doc/actions/workflows/cd.yml)
+[![Gem](https://github.com/work-design/rails_doc/actions/workflows/gempush.yml/badge.svg)](https://github.com/work-design/rails_doc/actions/workflows/gempush.yml)
+
 `rails_doc`是一个 从Rails应用 输出 [OpenAPI](https://github.com/OAI/OpenAPI-Specification) 格式文档的工具；
 
 ## 功能
