@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/qinmingyuan/viter.git
+  revision: a6c36456e695b32d427179c1bfc1c0df2c66792c
+  specs:
+    viter (0.1)
+      rails
+
+GIT
   remote: https://github.com/work-design/rails_com.git
   revision: 62d866862c729077c67329a0faf255ebaa49eba2
   specs:
@@ -236,6 +243,7 @@ DEPENDENCIES
   rails_doc!
   rails_extend!
   sdoc
+  viter!
 
 BUNDLED WITH
    2.2.22
