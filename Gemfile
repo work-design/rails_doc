@@ -8,6 +8,7 @@ gem 'pg'
 gem 'viter', github: 'qinmingyuan/viter'
 gem 'rails_extend', github: 'work-design/rails_extend'
 gem 'rails_com', github: 'work-design/rails_com'
+gem 'rails_design', github: 'work-design/rails_design'
 
 gem 'amazing_print'
 group :development, :test do

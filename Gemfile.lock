@@ -22,6 +22,13 @@ GIT
       turbo-rails
 
 GIT
+  remote: https://github.com/work-design/rails_design.git
+  revision: 074ee48cd8cd754977c8946f73479fe4a7e9b3f5
+  specs:
+    rails_design (0.0.1)
+      rails
+
+GIT
   remote: https://github.com/work-design/rails_extend.git
   revision: 9f79c3ba99e3d590841736b4a7855f54035a43cc
   specs:
@@ -240,6 +247,7 @@ DEPENDENCIES
   pg
   puma
   rails_com!
+  rails_design!
   rails_doc!
   rails_extend!
   sdoc
